@@ -1,0 +1,125 @@
+.site-wrapper {
+	display: flex;
+	max-width: 100vw;
+}
+
+.content {
+	flex-grow: 1;
+}
+
+h1 {
+	font-family: 'Audiowide', cursive;
+	font-size: 95px;
+}
+
+h2 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+}
+
+p {
+	overflow: hidden;
+	font-family: 'Nunito', sans-serif;
+	font-size:25px;
+	font-weight: 200;
+}
+
+section {
+	box-sizing: border-box;
+}
+
+.section-wrapper {
+	width: 100%;
+}
+
+#home-section {
+	height: 250px;
+	width: 100%;
+	background-color: #0E79B2;
+	background-image: url('../images/home_background.jpg');
+	background-size: cover;
+	overflow: hidden;
+
+	/* vertical align */
+	display: flex;
+	align-items: center;
+
+}
+
+#blog-section {
+	height: 485px;
+	padding: 100px 0px;
+	background-color: #F39237;
+	background-image: url('../images/book_background3.jpg');
+	background-size: cover;
+	overflow: hidden;
+	text-align: center;
+
+	/* vertical align */
+	display: flex;
+	align-items: center;
+}
+
+.blog-text {
+	color: #FBFEF9;
+}
+
+.blog-button {
+	background-color: #FBFEF9 !important;
+	border-color: #FBFEF9 !important; 
+	color: #F39237 !important;
+}
+
+#coding-section {
+	height: 485px;
+	background-color: #BF1363;
+	background-image: url('../images/coding_background3.jpg');
+	background-size: cover;
+	overflow: hidden;
+	text-align: center;
+
+	/* vertical align */
+	display: flex;
+	align-items: center;
+}
+
+.coding-text {
+	color: #FBFEF9;
+}
+
+.coding-button {
+	background-color: #FBFEF9 !important;
+	border-color: #FBFEF9 !important; 
+	color: #BF1363 !important;
+}
+
+#project-section {
+	height: 485px;
+	background-color: #5FAD56;
+	text-align: center;
+	background-image: url('../images/project_background.jpg');
+	background-size: cover;
+	/* vertical align */
+	display: flex;
+	align-items: center;
+}
+
+#contact-section {
+	height: 485px;
+	text-align: center;
+	background-color: #F0B67F;
+	background-image: url('../images/contact_background.jpg');
+	background-size: cover;
+	/* vertical align */
+	display: flex;
+	align-items: center;
+}
+
+.pokedex {
+	background-color: red;
+	height: 100%;
+}
+
+.leaguestats {
+	background-color: orange;
+}
